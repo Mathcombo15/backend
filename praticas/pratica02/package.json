@@ -1,6 +1,6 @@
 {
-  "name": "pratica02",
-  "version": "1.0.0",
+  "name": "casa",
+  "version": "3.3.3",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
