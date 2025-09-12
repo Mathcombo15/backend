@@ -54,7 +54,7 @@ router.delete("/:id", (req, res) => {
 app.use('/tarefas', router);
 
 // middleware de error
-app.use((err, req, res, nest) => {
+app.use((err, req, res, next) => {
     console.log(err.message);
     res.status(500).send("Algo de errado não está certo!");
 });
