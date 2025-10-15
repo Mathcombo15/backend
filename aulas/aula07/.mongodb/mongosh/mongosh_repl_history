@@ -1,0 +1,17 @@
+db.usuarios.find({})
+db.usuarios.deleteOne({nome: "Matheus"})
+db.usuarios.find({})
+db.usuarios.updateOne({nome: "Matheus"},{ $set: {telefone: "8966335520"}})
+db.usuarios.updateOne({nome: "Matheus"},{ $set: {telefone: "8966335520"}} db.usuarios.updateOne({nome: "Matheus"},{ $set: {telefone: "8966335520"}}
+db.usuarios.updateOne({nome: "Matheus"},{ $set{telefone: "8966335520"}}
+db.usuarios.find({nome: "Kelly"})
+db.usuarios.find({nome: "Maria"})
+db.usuarios.find({})
+db.usuarios.insertOne({nome: "Kelly", email: "kelly@gmail.com", telefone: "61995021415"})
+db.usuarios.find({})
+show collections
+db.usuarios.insertOne({nome: "Matheus", email: "math@gmail.com"})
+show collections
+use meubanco
+use local
+show dbs
